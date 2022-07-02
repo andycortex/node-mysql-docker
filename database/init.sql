@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS patientsdatabase;
+CREATE DATABASE IF NOT EXISTS patientsdb;
 
-USE patientsdatabase;
+USE patientsdb;
 
-DROP TABLE IF EXISTS patientsdatabase;
+DROP TABLE IF EXISTS patientsdb;
 
 CREATE TABLE patients(
     id          BIGINT NOT NULL AUTO_INCREMENT,
