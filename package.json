@@ -1,0 +1,34 @@
+{
+  "name": "mysql-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andycortex/node-mysql-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andycortex/node-mysql-docker/issues"
+  },
+  "homepage": "https://github.com/andycortex/node-mysql-docker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "pino": "^8.1.0",
+    "pino-pretty": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
